@@ -101,7 +101,6 @@ control_loop() {
                 if [[ -n "${victims[$kill_ip]}" ]]; then
                     echo -e "${RED}[+] Terminating connection to $kill_ip${NC}"
                     unset victims["$kill_ip"]
-                    # Send kill signal to specific victim process
                     pkill -f "nc.*$kill_ip" 2>/dev/null
                 else
                     echo -e "${RED}[!] Victim not found, dumbass${NC}"
