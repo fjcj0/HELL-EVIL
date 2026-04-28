@@ -36,7 +36,6 @@ start_listener() {
 }
 handle_victim_output() {
     local output="$1"
-    # Parse victim IP from output
     if [[ "$output" =~ \[+\]New.victim.connected.from.(.+) ]]; then
         VICTIM_IP="${BASH_REMATCH[1]}"
         victims["$VICTIM_IP"]="active"
