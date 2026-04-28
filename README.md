@@ -36,13 +36,13 @@ chmod +x reverse_shell.sh && ./reverse_shell.sh <port:number> <max_victims:numbe
 
 | Command        | Action                                                                 |
 |----------------|------------------------------------------------------------------------|
-| list           | 📋 List all victims connected to one specifc port.                     |
-| select <id>    | 🔌 Swithc to another victim connected.                                 |
-| broadcast      | 🔙 Broadcoast command to all victims.                                  |
-| clear          | 🧹 Clears the terminal screen.                                         |
-| kill <id>      | 🧹 Kill specific session.                                              |
-| kill-all       | 🧹 Kill all sessions.                                                  |
-| exit           | 🚪 Shuts down the manager and resets sessions.                         |
+| list           | 📡 List all victims connected to one specific port.                   |
+| select <id>    | 🔌 Switch to another connected victim.                                 |
+| broadcast      | 📢 Broadcast command to all victims.                                   |
+| clear          | 🧽 Clears the terminal screen.                                         |
+| kill <id>      | ❌ Terminate specific session.                                         |
+| kill-all       | 💥 Terminate all sessions.                                             |
+| exit           | 🚪 Shut down the manager and reset sessions.                           |
 
 ---
 
